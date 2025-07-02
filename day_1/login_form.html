@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #main{
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 222px;
+            background-color: darkgray;
+            height: 600px;
+            
+        }
+        #login{
+            width: 100px;
+            color:darkgreen;
+        }
+        
+        table{
+            display: flex;
+            background-color: white;
+            padding: 30px;
+            border:darkgray 2px solid ;
+
+        }
+        table tr{
+            height: 50px;
+            
+        }
+        .one .two{
+            border-radius: 10px;
+            text-overflow: clip;
+        }
+        :hover .two{
+            cursor: pointer;
+        }
+
+        
+
+    </style>
+    <div id="main">
+        
+        <table>
+            <tr><td><h1 id="login">Login</h1></td></tr>
+            
+            <tr>
+                <td>Name</td>
+                <td><input id="username" class="one" placeholder="username" type="text"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input id="Password" class="one" placeholder="Password"  type="text"></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input id="age"  class="one" type="number"></td>
+            </tr>
+            <tr>
+                <td><button onclick=submit() class="two" >Submit</button></td>
+                
+            </tr>
+            
+        </table>
+    </div>
+    
+</body>
+</html>
